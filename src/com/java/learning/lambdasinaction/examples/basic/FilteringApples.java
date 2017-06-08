@@ -1,4 +1,4 @@
-package lambdasinaction.chap1;
+package com.java.learning.lambdasinaction.examples.basic;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,7 +13,7 @@ public class FilteringApples {
 
 		// [Apple{color='green', weight=80}, Apple{color='green', weight=155}]
 		List<Apple> greenApples = filterApples(inventory, FilteringApples::isGreenApple);
-		System.out.println(greenApples);
+		System.out.println(greenApples); 
 
 		// [Apple{color='green', weight=155}]
 		List<Apple> heavyApples = filterApples(inventory, FilteringApples::isHeavyApple);
