@@ -39,7 +39,14 @@ class LambdaDemo {
 	}
 }
 
-// A functional interface.
+/**
+ * A functional interface is an interface that specifies only one abstract method.
+ */
 interface MyNumber {
+	/*
+	 * the type and number of the lambda expression’s parameters must be
+	 * compatible with the method’s parameters; the return types must be compatible; and any
+	 * exceptions thrown by the lambda expression must be acceptable to the method.
+	 */
 	double getValue();
 }
